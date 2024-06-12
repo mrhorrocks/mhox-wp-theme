@@ -1,12 +1,6 @@
-/* .tablepress thead th,
-.tablepress tfoot th {
-  background-color: black;
-  color: white;
-  font-weight: normal;
-} */
-
-.dataTables_wrapper {
+div.dataTables_wrapper {
   overflow-x: scroll;
+  margin: 3rem 0;
 }
 
 .tablepress {
@@ -60,8 +54,12 @@
   }
 }
 
-.dataTables_info,
-.dataTables_paginate {
+div.dataTables_info,
+div.dataTables_paginate {
   background-color: red;
+  padding: 1rem;
+}
+
+div.dataTables_paginate.paging_simple {
   padding: 1rem;
 }
