@@ -96,7 +96,6 @@ html body {
   src: local("Roboto"), url("/customstyles/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
 }
 div.dataTables_wrapper {
-  overflow-x: scroll;
   margin: 3rem 0;
 }
 
