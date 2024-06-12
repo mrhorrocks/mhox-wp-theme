@@ -87,7 +87,7 @@ html body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -152,7 +152,10 @@ div.dataTables_paginate.paging_simple {
   padding: 1rem;
 }
 
-header {
+section#section-header {
+  background-color: yellow;
+}
+section#section-header header {
   background: pink;
   display: flex;
   justify-content: space-between;
@@ -175,11 +178,24 @@ menu ul li:hover {
   background-color: #eaa16c;
 }
 
-.page-content {
+section#front-page {
+  background-color: #b3b33e;
+}
+section#front-page .page-content {
   background-color: #ff98a9;
 }
 
-footer {
+section#section-page {
+  background-color: #b3b33e;
+}
+section#section-page .page-content {
+  background-color: #ff98a9;
+}
+
+section#section-footer {
+  background-color: yellow;
+}
+section#section-footer footer {
   background-color: red;
 }
 

@@ -1,5 +1,8 @@
-header {
-  background: pink;
-  display: flex;
-  justify-content: space-between;
+section#section-header {
+  background-color: yellow;
+  header {
+    background: pink;
+    display: flex;
+    justify-content: space-between;
+  }
 }

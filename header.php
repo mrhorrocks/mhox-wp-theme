@@ -9,8 +9,8 @@
 </head>
 
 <body>
-    <section>
-        <header id="site-header">
+    <section id="section-header">
+        <header id="site-header" class="container">
             <!-- APP LOGO -->
             <div class="logo">
                 <img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="Logo">
