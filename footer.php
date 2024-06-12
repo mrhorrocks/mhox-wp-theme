@@ -1,7 +1,6 @@
 <!-- Global footer -->
 <footer>
-    <h1>footer.php</h1>
-    <?php wp_footer(); ?>
+    <h1>footer content</h1>
 </footer>
 </body>
 

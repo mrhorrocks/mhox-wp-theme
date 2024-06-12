@@ -12,7 +12,6 @@
 
     <header>
         <img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="Logo">
-        <h1>header.php</h1>
     </header>
 
     <menu>

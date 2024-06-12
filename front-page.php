@@ -1,7 +1,6 @@
 <!-- Front page template -->
 <?php get_header(); ?>
 <main>
-    <h1>front-page.php</h1>
-    <p>test paragraph</p>
+    <?php the_content(); ?>
 </main>
 <?php get_footer(); ?>
