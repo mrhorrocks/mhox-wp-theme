@@ -1,0 +1,13 @@
+.tablepress thead th,
+.tablepress tfoot th {
+  background-color: black;
+  color: white;
+  font-weight: normal;
+}
+
+.tablepress thead .sorting_asc,
+.tablepress thead .sorting_desc,
+.tablepress thead .sorting:hover {
+  background-color: #4f4f4f;
+  color: white;
+}
