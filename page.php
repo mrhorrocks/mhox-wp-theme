@@ -1,6 +1,8 @@
 <!-- Basic page template -->
 <?php get_header(); ?>
-<main>
-    <?php the_content(); ?>
-</main>
+<section>
+    <main>
+        <?php the_content(); ?>
+    </main>
+</section>
 <?php get_footer(); ?>
