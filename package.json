@@ -1,0 +1,11 @@
+{
+  "name": "mhox",
+  "version": "1.0.0",
+  "description": "Wordpress Theme",
+  "scripts": {
+    "sass": "sass --watch mhox/customstyles/partials/_custom.scss mhox/customstyles/custom.css"
+  },
+  "devDependencies": {
+    "sass": "^1.77.4"
+  }
+}

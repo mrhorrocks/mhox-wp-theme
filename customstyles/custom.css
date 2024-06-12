@@ -1,0 +1,22 @@
+body {
+  background: lightblue;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background: pink;
+}
+
+menu {
+  background-color: aqua;
+}
+
+footer {
+  background-color: red;
+}
+
+/*# sourceMappingURL=custom.css.map */
