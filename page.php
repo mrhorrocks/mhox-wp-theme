@@ -1,7 +1,7 @@
 <!-- Basic page template -->
 <?php get_header(); ?>
 <section>
-    <main>
+    <main class="page-content">
         <?php the_content(); ?>
     </main>
 </section>

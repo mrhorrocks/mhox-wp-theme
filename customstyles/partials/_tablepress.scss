@@ -1,8 +1,35 @@
-.tablepress thead th,
+/* .tablepress thead th,
 .tablepress tfoot th {
   background-color: black;
   color: white;
   font-weight: normal;
+} */
+
+.dataTables_wrapper {
+  overflow-x: scroll;
+}
+
+.tablepress {
+  thead,
+  tfoot {
+    th {
+      background-color: black;
+      color: white;
+      font-weight: normal;
+    }
+  }
+  tbody {
+    tr {
+      td {
+        line-height: 2rem;
+        &:last-child {
+          background-color: green;
+          font-weight: bold;
+          font-size: 2rem;
+        }
+      }
+    }
+  }
 }
 
 .tablepress thead .sorting_asc,
@@ -10,4 +37,24 @@
 .tablepress thead .sorting:hover {
   background-color: #4f4f4f;
   color: white;
+}
+
+.dataTables_length,
+.dataTables_filter {
+  background-color: #ccc;
+  padding: 1rem;
+  label {
+    input,
+    select {
+      border: 0;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+    }
+  }
+}
+
+.dataTables_info,
+.dataTables_paginate {
+  background-color: red;
+  padding: 1rem;
 }
