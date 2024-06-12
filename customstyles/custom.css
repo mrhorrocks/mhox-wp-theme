@@ -95,14 +95,9 @@ html body {
   font-family: "Roboto";
   src: local("Roboto"), url("/customstyles/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
 }
-/* .tablepress thead th,
-.tablepress tfoot th {
-  background-color: black;
-  color: white;
-  font-weight: normal;
-} */
-.dataTables_wrapper {
+div.dataTables_wrapper {
   overflow-x: scroll;
+  margin: 3rem 0;
 }
 
 .tablepress thead th,
@@ -110,6 +105,9 @@ html body {
   background-color: black;
   color: white;
   font-weight: normal;
+}
+.tablepress tbody tr:hover {
+  cursor: pointer;
 }
 .tablepress tbody tr td {
   line-height: 2rem;
@@ -127,6 +125,10 @@ html body {
   color: white;
 }
 
+.tablepress > .row-hover > tr:hover td:last-child {
+  background-color: #c7c02a;
+}
+
 .dataTables_length,
 .dataTables_filter {
   background-color: #ccc;
@@ -141,14 +143,20 @@ html body {
   border-radius: 0.5rem;
 }
 
-.dataTables_info,
-.dataTables_paginate {
+div.dataTables_info,
+div.dataTables_paginate {
   background-color: red;
+  padding: 1rem;
+}
+
+div.dataTables_paginate.paging_simple {
   padding: 1rem;
 }
 
 header {
   background: pink;
+  display: flex;
+  justify-content: space-between;
 }
 
 menu {
