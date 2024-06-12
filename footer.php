@@ -1,9 +1,7 @@
 <!-- Global footer -->
-<section>
-    <footer>
-        <h1>footer content</h1>
-    </footer>
-</section>
+<footer>
+    <?php wp_footer(); ?>
+</footer>
 </body>
 
 </html>
