@@ -6,9 +6,9 @@ div.dataTables_wrapper {
   thead,
   tfoot {
     th {
-      background-color: black;
+      /* background-color: black;
       color: white;
-      font-weight: normal;
+      font-weight: normal; */
     }
   }
   tbody {
@@ -19,7 +19,8 @@ div.dataTables_wrapper {
       td {
         line-height: 2rem;
         &:last-child {
-          background-color: green;
+          background-color: #ccc;
+          text-align: right;
           font-weight: bold;
           font-size: 2rem;
         }
@@ -41,22 +42,24 @@ div.dataTables_wrapper {
 
 .dataTables_length,
 .dataTables_filter {
-  background-color: #ccc;
-  padding: 1rem;
+  padding: 1rem 0;
   label {
     input,
     select {
       border: 0;
       padding: 0.5rem;
-      border-radius: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 0.25rem;
     }
   }
 }
 
 div.dataTables_info,
 div.dataTables_paginate {
-  background-color: red;
-  padding: 1rem;
+  padding: 1rem 0;
+  a {
+    color: black;
+  }
 }
 
 div.dataTables_paginate.paging_simple {

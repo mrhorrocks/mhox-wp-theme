@@ -1,8 +1,11 @@
 section#section-header {
-  background-color: yellow;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px #a3a3a3;
   header {
-    background: pink;
     display: flex;
     justify-content: space-between;
+    .logo {
+      display: flex;
+    }
   }
 }
